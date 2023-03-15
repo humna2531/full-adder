@@ -19,7 +19,7 @@ module fulladder_tb;
        i<5;
        i=i+1);
 A<=$andam;
-  B<=$raandam;
+  B<=$randam;
   c_in<=$randam;
   end;
 endmodule;
