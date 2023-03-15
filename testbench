@@ -1,0 +1,30 @@
+module fulladder_tb;
+  reg A;
+  reg B;
+  reg c_in;
+  wire c_out;
+  wire s;
+  integer i;
+  fulladder fa0 (
+    .A(a),
+    .B(b),
+    .c_in(carry_in),
+    .c_out (carry_out),
+    .s(sum_out) );
+  A<=0;
+  B<=0;
+  c-in<=0;
+  
+  for (=0;
+       i<5;
+       i=i+1);
+A<=$andam;
+  B<=$raandam;
+  c_in<=$randam;
+  end;
+endmodule;
+    
+  
+    
+  
+  
